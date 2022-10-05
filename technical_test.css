@@ -1,0 +1,74 @@
+.head-container {
+  position: relative;
+  text-align: center;
+}
+
+.header-text {
+  position: absolute;
+  bottom: 10vw;
+  right: 58vw;
+}
+
+.navbarr a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 1.1vw;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.2s ease;
+}
+.navbarr a:hover {
+  text-decoration: none;
+}
+.navbarr {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  background-color: #00000004;
+  box-shadow: 0px 1px 12px -4px #00000069;
+}
+.img-gallery1 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 50px 30px;
+  margin-bottom: 10vw;
+}
+.img-gallery1 h2 {
+  font-size: 1.6vw;
+}
+.img-gallery1 img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+.img-gallery2 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 50px;
+}
+.img-gallery2 img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+.body2-img-2 {
+  object-fit: contain !important;
+  height: 44%;
+}
+.img-gallery3 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 50px;
+  margin-bottom: 5vw;
+}
+.img-gallery3 img {
+  object-fit:contain;
+  width: 25%;
+}
+.body2-img-5{
+    object-fit: cover !important;
+}
+.above-footer-text h2{
+    font-size: 1vw;
+}
